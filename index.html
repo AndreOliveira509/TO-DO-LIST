@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: #004fbc;
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+
+        main {
+            width: 40%;
+            height: 30vh;
+            border-radius: 10px;
+            background-color: white;
+            border: 2px solid black;
+
+        }
+
+        #add {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>To do list</h1>
+        <h3>Adicione sua Tarefa</h3>
+        <input type="text" placeholder="O que você vai fazer?"><button onclick="adicionar()" id="add">+</button>
+    </main>
+</body>
+
+</html>
